@@ -20,7 +20,7 @@ public class Tree {
     public String toString() {
         StringBuilder ans = new StringBuilder();
         for (Tree t : children) {
-            ans.append(node).append("->").append(t.node).append(";").append("\n").append(t.toString());
+            ans.append(node).append("->").append(t.node).append(";").append("\n").append(t);
         }
         return ans.toString();
     }

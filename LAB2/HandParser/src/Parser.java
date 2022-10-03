@@ -4,7 +4,7 @@ import java.text.ParseException;
 public class Parser {
     private LexicalAnalyser lex;
     private String token;
-    private int curNodeC = 0;
+
     private Tree S() throws ParseException {
         if (lex.curToken() == Token.NAME) {
             String name = token;
