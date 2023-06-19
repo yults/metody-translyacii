@@ -1,0 +1,8 @@
+grammar declar; //описание переменных в си
+s : (VAR f l SEMICOLON s) | EPS; //описание переменных
+l : (COMMA f l) | EPS; //описание переменных через запятую
+f : (STAR f) | VAR; //переменная или указатель
+STAR:'\\*';
+SEMICOLON: '\\;';
+COMMA: '\\,';
+VAR : '[a-zA-Z][a-zA-Z0-9_]*';

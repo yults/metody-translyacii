@@ -1,0 +1,25 @@
+#include <iostream>
+
+
+#include      <vector>
+
+
+#include <set>
+
+#include <algorithm>
+
+using      namespace std;
+
+
+
+int main() {
+double z;
+int x = 0, y = 1 %    2, z;
+x = 1 + 1;
+    cin >> x;
+    if (1 > true) {cin >> x;} else {if(true) {return 0;}}
+    return "xxdkfk";
+    for (int i = 0; i < n; i++) {
+    cin>> x;
+    }
+}
